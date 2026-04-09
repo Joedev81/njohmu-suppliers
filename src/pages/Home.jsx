@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react";
 import machine1 from "../../public/assets/machine1.jpg";
 import machine2 from "../../public/assets/machine2.jpg";
 import machine3 from "../../public/assets/machine3.jpg";
+import machine4 from "../../public/assets/machine4.jpg";
 import { Link } from "react-router-dom";
 
 const Home = () => {
-  const slides = [machine1, machine2, machine3];
+  const slides = [machine1, machine2, machine3, machine4];
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
@@ -20,12 +21,17 @@ const Home = () => {
       {/* Hero Slideshow */}
       <div className="relative w-full h-[90vh] overflow-hidden">
         {slides.map((slide, index) => (
-          <img
+          <div
             key={index}
-            src={slide}
-            alt={'Slide ${index}'}
-            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${index === current ? "opacity-100" : "opacity-0"
-              }`}
+            className={`absolute inset-0 transition-opacity duration-1000 ${
+              index === current ? "opacity-100" : "opacity-0"
+            }`}
+            style={{
+              backgroundImage: `url(${slide})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
           />
         ))}
 
@@ -81,13 +87,15 @@ const Home = () => {
         <h3 className="text-2xl font-bold mb-4">
           Ready to Power Your Next Project?
         </h3>
-        <Link to="/contact" className="bg-white text-green-700 font-semibold px-8 py-3 rounded-lg hover:bg-green-100 transition duration-300">
+        <Link
+          to="/contact"
+          className="bg-white text-green-700 font-semibold px-8 py-3 rounded-lg hover:bg-green-100 transition duration-300"
+        >
           Contact Us Today
         </Link>
-
       </section>
     </div>
   );
 };
 
-export default Home; 
+export default Home;

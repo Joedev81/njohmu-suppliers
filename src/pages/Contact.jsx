@@ -92,7 +92,7 @@ export default function Contact() {
               <strong>Address:</strong> Yukos Kitengela, Kajiado, Kenya
             </p>
             <p>
-              <strong>Phone:</strong> +254 720 839
+              <strong>Phone:</strong> +254 720 839 534
             </p>
             <p>
               <strong>Email:</strong> info@njohmu.com

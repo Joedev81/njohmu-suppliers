@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "email": "admin@njohmu.com",
+    "password": "admin123", 
+    "isAdmin": true
+  },
+  {
+    "id": 2,
+    "email": "user1@njohmu.com",
+    "password": "user123",
+    "isAdmin": false
+  },
+  {
+    "id": 3,
+    "email": "user2@njohmu.com",
+    "password": "user123",
+    "isAdmin": false
+  }
+]

@@ -119,7 +119,7 @@ export default function About() {
                   Francis Njonge
                 </h3>
                 <p className="text-green-700 dark:text-green-400 font-medium mb-2">
-                  Chief Executive Officer(CEO)
+                  Founder & CEO
                 </p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm">
                   Francis leads the company with 15+ years of experience in strategic growth,
@@ -132,18 +132,18 @@ export default function About() {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 justify-items-center">
               <div className="bg-gray-50 dark:bg-green-800 p-6 rounded-2xl shadow-md flex flex-col items-center">
                 <img
-                  src="team/cto.jpg"
-                  alt="CTO"
+                  src="team/sd.jpg"
+                  alt="SD"
                   className="w-32 h-32 rounded-full object-cover mb-4"
                 />
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                  John Smith
+                  Joe Mucheru
                 </h3>
                 <p className="text-green-700 dark:text-green-400 font-medium mb-2">
-                  Chief Technology Officer
+                  System Developer
                 </p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm">
-                  John drives product innovation and oversees all technology operations.
+                  Joe designs and maintains efficient, secure and reliable digital systems that supports daily operations and business growth.
                 </p>
               </div>
 
@@ -178,6 +178,23 @@ export default function About() {
                 </p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm">
                   Philip oversees financial planning and ensures the company’s fiscal health.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 dark:bg-green-800 p-6 rounded-2xl shadowmd flex flex-col items-center">
+                <img
+                  src="/images/team/mr.jpg"
+                  alt="MR"
+                  className="w-23 h-32 rounded-full object-cover mb4"
+                />
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+                  James Ngaruhya
+                </h3>
+                <p className="text-green-700 dark:text-green-400 font-medium mb-2">
+                  Marketing Representative
+                </p>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
+                  James promotes Njohmu Suppliers' products, engages customers, and supports brand growth through effective marketing efforts.
                 </p>
               </div>
             </div>

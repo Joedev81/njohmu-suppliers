@@ -17,7 +17,7 @@ const machines = [
   },
   {
     id: 3,
-    name: "Lorry",
+    name: "Truck",
     price: "35,000 KES",
     image: "/machines/Lorry.jpg",
     whatsapp: "https://wa.me/254720839534?text=Hi! I'm interested in the Njohmu Lorry(materials).",
